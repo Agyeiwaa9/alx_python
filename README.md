@@ -1,2 +1,1 @@
-# alx_python
-# This is my first python project
+python fucntions project
