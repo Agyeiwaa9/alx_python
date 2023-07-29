@@ -1,6 +1,6 @@
 def main():
-    for num in range(99):
-    print(f"{num} = 0x{num:x}")
+    for i in range(99):
+    print("{} = 0x{:x}".format(i, i))
     
 if __name__ == "__main__":
     main()
