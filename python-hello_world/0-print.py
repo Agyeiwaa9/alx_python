@@ -1,1 +1,6 @@
-print (" \" Programming is like a multilingual puzzle, \n")
+def main():
+    print("Programming is like building a multilingual puzzle")
+
+if __name__ == "__main__":
+    main()
+
