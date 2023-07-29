@@ -1,10 +1,18 @@
 #!/usr/bin/python3
 import random
-number = random.randint(-10, 10)
+
+def main():
+    number = random.randint(-100, 100)
 # YOUR CODE HERE
-if number==0:
-  print(number,"is zero \n")
-if number>0:
-  print(number, "is positive \n")
-else if number<0:
-  print(number, "is negative \n")
+    print(number)
+
+    if number > 0:
+        print("is positive")
+    elif number == 0:
+        print("is zero")
+    else:
+        print("is negative")
+
+if __name__ == "__main__":
+    main()
+
