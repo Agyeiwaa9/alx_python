@@ -8,6 +8,6 @@ print(fibonacci_sequence(1))
 print(fibonacci_sequence(0))
 print(fibonacci_sequence(20))
 
-if __name__ ="fibonacci_sequence"
+if __name__ ="__fibonacci_sequence__"
 fibonacci_sequence()
 
