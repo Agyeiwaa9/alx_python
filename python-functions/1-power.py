@@ -1,5 +1,6 @@
-#!/usr/bin/env python3
-pow = __import__('1-power').pow
+#!/usr/bin/python3
+pow = __import__('8-pow').pow
+
 def pow(a,b)
 print(pow(2, 2))
 print(pow(98, 2))
