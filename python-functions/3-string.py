@@ -7,4 +7,5 @@ print(reverse_string(""))
 print(reverse_string("madam"))
 print(reverse_string("Hello, World!"))
 
+if __name__=="reverse_string":
 reverse_string()
