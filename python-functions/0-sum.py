@@ -12,3 +12,8 @@ def add(a, b):
 result = add(5, 7)
 print(result)  # Output will be 12
 
+print(add(1, 2))
+print(add(98, 0))
+print(add(100, -2))
+
+
