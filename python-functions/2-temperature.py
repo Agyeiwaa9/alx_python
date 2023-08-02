@@ -7,7 +7,7 @@ print(convert_to_celsius(-40))
 print(convert_to_celsius(-459.67))
 print(convert_to_celsius(32))
 
-if __name__ == "convert_to_celsius":
+if __name__ == "__convert_to_celsius__":
     convert_to_celsius()
 
 
