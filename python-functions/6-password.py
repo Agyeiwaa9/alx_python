@@ -1,4 +1,5 @@
-#!/usr/bin/env python3validate_password = __import__('6-password').validate_password
+#!/usr/bin/env python3
+validate_password = __import__('6-password').validate_password
 ​
 print(validate_password("Password123"))
 
