@@ -9,11 +9,9 @@ def add(a, b):
     return a
 
 # Test the function
-result = add(5, 7)
+result = add(1,2)
 print(result)  # Output will be 12
 
-print(add(1, 2))
-print(add(98, 0))
-print(add(100, -2))
+
 
 
