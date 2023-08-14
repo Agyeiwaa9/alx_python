@@ -21,7 +21,7 @@ return (a + b)
 add()= a-b
 result2 = a-b
 return(a-b)
-print("{} + {} + {} \n" .format (a,b,result, result))
+print("{} + {} + {} \n" .format (a,b,result))
 print(result2)
 
 
