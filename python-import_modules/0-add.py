@@ -18,7 +18,11 @@ result = add(a,b)
 return (a + b)
 print("{} + {} = {}".format(a, b, result)
 
-FAKE add()= a-b
+# subtraction
+add()= a-b
+result2 = a-b
+return(a-b)
+print("{} + {} + {}" . format (a,b,result2))
 
     
 if ___name___="___main___":
