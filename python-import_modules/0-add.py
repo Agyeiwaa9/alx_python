@@ -16,7 +16,7 @@ def add(a, b):
     from add_0 import add
     result = add(a,b)
     return (a + b)
-    print(f"{a} + {b} = {result}")
+    print("{} + {} = {}".format(a, b, result)
 
     
 if ___name___="___main___":
