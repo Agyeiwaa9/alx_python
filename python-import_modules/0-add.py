@@ -10,8 +10,8 @@ def add(a, b):
         The return value. a + b
    """
 add(a,b) = a + b 
-"a = 1"
-"b = 2"
+"a = [1,10,-10]"
+"b = [2,30,30]"
 
 from add_0 import add
 result = add(a,b)
