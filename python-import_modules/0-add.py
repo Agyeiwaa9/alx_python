@@ -9,9 +9,9 @@ def add(a, b):
     Returns:
         The return value. a + b
    """
-    add(a,b) = a + b 
-       "a = 1"
-       "b = 2"
+add(a,b) = a + b 
+"a = 1"
+"b = 2"
 
     from add_0 import add
     result = add(a,b)
