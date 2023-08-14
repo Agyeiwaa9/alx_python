@@ -16,7 +16,8 @@ add(a,b) = a + b
 from add_0 import add
 result = add(a,b)
 return (a + b)
-print("{} + {} + {} \n" .format (a,b,result))
+print("{} + {} + {} \n" .format(a,b,result))
+
 # subtraction
 add()= a-b
 result2 = a-b
