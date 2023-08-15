@@ -28,7 +28,7 @@ from add_0 import add
 result = add(a, b)
 result2 = subtract(a, b)
 
-print("{} + {} = {}\n{} - {} = {}\n".format(a, b, result, a, b, result2))
+print("{} + {} = {}\n".format(a, b, result))
 
 if __name__ == "__main__":
     pass  # Add your main code here if needed
