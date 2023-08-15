@@ -21,10 +21,6 @@ print("{} + {} + {} \n" .format(a,b,result))
 # subtraction
 add()= a-b
 result2 = a-b
-return(a-b)
+return (a - b)
 
-
-
-
-    
 if ___name___== "___main___":
