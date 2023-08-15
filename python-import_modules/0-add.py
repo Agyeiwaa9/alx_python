@@ -1,26 +1,28 @@
 #!/usr/bin/python3
+
 def add(a, b):
     """My addition function
-   add(a,b) = a + b 
     Args:
-        a= 1
-        b: 2
-
+        a: First operand
+        b: Second operand
     Returns:
-        The return value. a + b
-   """
-add(a,b) = a + b 
-"a = 1"
-"b = 2"
+        The sum of a and b
+    """
+    return a + b
+
+def subtract(a, b):
+
+    return a - b
+
+a = 1
+b = 2
 
 from add_0 import add
-result = add(a,b)
-return (a + b)
-print("{} + {} + {} \n" .format(a,b,result))
 
-# subtraction
-add()= a-b
-result2 = a-b
-return (a - b)
+result = add(a, b)
+result2 = subtract(a, b)
 
-if ___name___== "___main___":
+print("{} + {} = {}\n{} - {} = {}\n".format(a, b, result, a, b, result2))
+
+if __name__ == "__main__":
+    pass  # Add your main code here if needed
