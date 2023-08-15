@@ -1,4 +1,5 @@
 def raise_exception_msg(message=""):
+from main_0 import raise_exception_msg
     class Main:
         def __init__(self, message):
             self.message = message
