@@ -12,7 +12,7 @@ def print_arguments():
     print(num_args, args_str)
     if num_args > 0:
         for i, arg in enumerate(argv[1:], start=1):
-            print(i, ":", arg)
+            print(i,":", arg)
 
 if __name__ == "__main__":
     print_arguments()
