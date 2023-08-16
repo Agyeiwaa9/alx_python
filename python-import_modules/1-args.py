@@ -10,8 +10,8 @@ def print_arguments():
         args_str = f"{num_args} arguments:"
     
     print(args_str)
-    for i, arg in enumerate(argv[1 :], start=1):
-        print(i,":",arg)
+    for i, arg in enumerate(argv[1:], start=1):
+        print(i,"   :",arg)
 
 if __name__ == "__main__":
     print_arguments()
