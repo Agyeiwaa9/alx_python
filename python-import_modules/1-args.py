@@ -9,7 +9,7 @@ def print_arguments():
     else:
         args_str = 'arguments:'
     
-    print("Number of argument(s) followed by", args_str)
+    print(num_args, args_str)
     if num_args > 0:
         for i, arg in enumerate(argv[1:], start=1):
             print(i, ":", arg)
