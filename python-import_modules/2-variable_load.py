@@ -7,5 +7,5 @@ if __name__ == "__main__":
     value_of_a = variable_load_2.a
 
     # Printing the value of a
-    print("{}", value_of_a)
+    print(value_of_a)
 
