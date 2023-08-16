@@ -1,4 +1,11 @@
 #!/usr/bin/python3
-a = 98
-"""Simple variable
-"""
+if __name__ == "__main__":
+    # Importing without using *
+    import variable_load_2
+
+    # Accessing the variable a
+    value_of_a = variable_load_2.a
+
+    # Printing the value of a
+    print("Value of variable 'a':", value_of_a)
+
