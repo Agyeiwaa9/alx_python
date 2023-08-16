@@ -7,10 +7,10 @@ def print_arguments():
     elif num_args ==1:
         args_str = '1 argument:'
     else:
-        args_str = f"{num_args}arguments:"
+        args_str = f"{num_args} arguments:"
     
     print(args_str)
-    for i, arg in enumerate(argv[1:], start=1):
+    for i, arg in enumerate(argv[1 :], start=1):
         print(i,":",arg)
 
 if __name__ == "__main__":
