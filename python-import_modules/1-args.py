@@ -1,5 +1,5 @@
 def print_arguments():
-    from sys import argv
+    from sys 
     
     num_args = len(argv) - 1
     if num_args == 0:
