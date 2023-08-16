@@ -11,7 +11,7 @@ def print_arguments():
     
     print(args_str)
     for i, arg in enumerate(argv[1:], start=1):
-        print(i,"   :",arg)
+        print(i":",arg)
 
 if __name__ == "__main__":
     print_arguments()
