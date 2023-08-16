@@ -4,9 +4,10 @@ def safe_print_division(a, b):
     except ZeroDivisionError:
         result = None
     finally:
-        print("Inside result: {}".format(result))
+        if result is not None:
+            print("Inside result: {}".format(result))
+            print("{} / {} = {}".format(a, b, result))
         return result
 
 # Test the function
-result = safe_print_division(10, 2)
-
+safe_print_division(10, 2)
