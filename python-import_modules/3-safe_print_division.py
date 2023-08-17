@@ -13,8 +13,5 @@ def safe_print_division(a, b):
     finally:
         if 'result' in locals():
             print("Inside result: {}".format(result))
-            print("{} / {} = {}".format(a, b, result))
         else:
             print("Inside result: None")
-            print("{} / {} = None".format(a, b))
-
