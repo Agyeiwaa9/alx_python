@@ -1,11 +1,8 @@
 def raise_exception():
-    value = "Hello, world!"
-    if not isinstance(value, int):
-        raise TypeError("Expected an integer, but got: " + str(value))
+    value = "not an integer"
+    try:
+        result = 10 + value  # This will raise a TypeError
+    except TypeError:
+        print("Exception has been raised")
 
-# Call the function to see the exception in action
-try:
-    raise_exception()
-except TypeError as e:
-    print("Caught an exception:", e)
-
+raise_exception()
