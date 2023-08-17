@@ -10,5 +10,3 @@ def safe_print_division(a, b):
                 print("{} / {} = {}".format(a, b, result))
         elif b == 0:
             print("Inside result: None")
-            if b == 0:
-                print("{} / {} = {}".format(a, b, result))
