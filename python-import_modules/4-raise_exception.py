@@ -3,5 +3,5 @@ def raise_exception():
     try:
         result = 10 + value  # This will raise a TypeError
     except TypeError:
-        print("Excection has been raised", end='')
+        print("Exception has been raised", end='')
 
