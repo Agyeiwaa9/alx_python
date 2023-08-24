@@ -10,7 +10,7 @@ def add(a, b):
 
 # Test the function
 result = add(1,2)
-print(result)  # Output will be 12
+
 
 
 
