@@ -8,8 +8,6 @@ def add(a, b):
         b = carry << 1
     return a
 
-# Test the function
-result = add(1,2)
 
 
 
