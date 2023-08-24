@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-add = __import__('0-sum').add
+
 def add(a, b):
     # Using bitwise operations to perform addition
     while b != 0:
