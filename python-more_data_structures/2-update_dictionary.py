@@ -1,5 +1,7 @@
-def multiple_returns(sentence):
-    if not sentence:
-        return (None, None)
-    return (len(sentence), sentence[0])
-
+def update_dictionary(a_dictionary, key, value):
+    a_dictionary[key] = value
+for k, v in a_dictionary.items():
+    print(f"{k}: {v}")
+print("xx")
+for k, v in a_dictionary.items():
+    print(f"{k}: {v}")
