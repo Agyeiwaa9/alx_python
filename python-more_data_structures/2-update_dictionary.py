@@ -10,3 +10,4 @@ def update_dictionary(a_dictionary, key, value):
     print("xx")
     for k, v in a_dictionary.items():
         print(f"{k}: {v}")
+
