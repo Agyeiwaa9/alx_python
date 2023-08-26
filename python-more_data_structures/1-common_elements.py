@@ -1,8 +1,6 @@
-def print_matrix_integer(matrix=[[]]):
-    for row in matrix:
-        for col_idx, value in enumerate(row):
-            if col_idx != 0:
-                print(" ", end="")
-            print("{:d}".format(value), end="")
-        print()
-
+def common_elements(set_1, set_2):
+    common = []
+    for element in set_1:
+        if element in set_2:
+            common.append(element)
+    return common
