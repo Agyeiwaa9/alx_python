@@ -1,9 +1,6 @@
-def print_matrix_integer(matrix=[[]]):
-    print_matrix_integer.square_matrix_simple = True  # Adding the attribute
+def square_matrix_simple(matrix=[]):
+    result = []
     for row in matrix:
-        print("[", end="")
-        for index, num in enumerate(row):
-            print("{:d}".format(num ** 2), end="")
-            if index < len(row) - 1:
-                print(", ", end="")
-        print("]")
+        squared_row = [num ** 2 for num in row]
+        result.append(squared_row)
+    return result
