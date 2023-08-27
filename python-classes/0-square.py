@@ -4,6 +4,4 @@ class Square:
 
 # Example usage
 square = Square()
-print(square._Square__size)
-  # Accessing private attribute (not recommended)
-
+print(square._Square__size)  # Accessing private attribute (not recommended)
