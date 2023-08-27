@@ -3,5 +3,6 @@ class Square:
         self.__size = size
 
 # Example usage
-square = Square()
+square = Square(5)
 print(square._Square__size)  # Accessing private attribute (not recommended)
+
