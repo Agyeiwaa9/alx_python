@@ -8,4 +8,4 @@ class Square:
 
 mysquare = Square(3)
 print(type(mysquare))
-print(mysquare.dict_)
+
