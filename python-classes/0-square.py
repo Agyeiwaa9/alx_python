@@ -6,6 +6,6 @@ class Square:
     def dict_(self):
         return {'_Square__size': self.__size}
 
-mysquare = Square()
+mysquare = Square(3)
 print(type(mysquare))
 print(mysquare.dict_)
