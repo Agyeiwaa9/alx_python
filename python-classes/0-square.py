@@ -1,8 +1,11 @@
 class Square:
     def __init__(self, size):
         self.__size = size
+    
+    @property
+    def dict_(self):
+        return {'_Square__size': self.__size}
 
-# Example usage
-square = Square(5)
-print(square._Square__size)  # Accessing private attribute (not recommended)
-
+mysquare = Square()
+print(type(mysquare))
+print(mysquare.dict_)
